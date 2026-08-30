@@ -8,6 +8,10 @@ H68/TRとパソコンが連携できるようH68/TRで出力されるテープ�
  
 　書式)
 
+　　BIN2WAV 変換元バイナリファイル名 H68/TR用WAVファイル名 ロード先頭番地
+ 
+　例)
+
 　　BIN2WAV input.bin output.wav 0100
  
 　　input.binを$0100からLoadするファイルとしてoutput.wavファイルを作成します。
@@ -16,6 +20,10 @@ H68/TRとパソコンが連携できるようH68/TRで出力されるテープ�
 　H68/TRで出力されるWAVファイルをパソコンでプログラムと認識できるバイナリファイルに変換します。
  
 　書式)
+
+　　WAV2BIN H68/TR用WAVファイル名 変換元バイナリファイル名
+
+　例)
 
 　　WAV2BIN input.wav output.bin
 

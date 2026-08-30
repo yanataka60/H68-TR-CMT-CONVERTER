@@ -4,19 +4,19 @@ H68/TRとパソコンが連携できるようH68/TRで出力されるテープ�
 
 ## 使い方
 ### BIN2WAV.exe
- パソコンのAssembler等で出力されるバイナリファイルをH68/TRで読み込めるWAVファイルに変換します。
+　パソコンのAssembler等で出力されるバイナリファイルをH68/TRで読み込めるWAVファイルに変換します。
  
- 書式)
+　書式)
 
-   BIN2WAV input.bin output.wav 0100
+　　BIN2WAV input.bin output.wav 0100
  
-  input.binを$0100からLoadするファイルとしてoutput.wavファイルを作成します。
+　　input.binを$0100からLoadするファイルとしてoutput.wavファイルを作成します。
 
 ### WAV2BIN.exe
- H68/TRで出力されるWAVファイルをパソコンでプログラムと認識できるバイナリファイルに変換します。
+　H68/TRで出力されるWAVファイルをパソコンでプログラムと認識できるバイナリファイルに変換します。
  
- 書式)
+　書式)
 
-   WAV2BIN input.wav output.bin
+　　WAV2BIN input.wav output.bin
 
-  アドレス情報は失われます。
+　　アドレス情報は失われます。
